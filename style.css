@@ -88,3 +88,21 @@ header{
 .goal img{
     margin-bottom: 15px;
 }
+/* section 3 */
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 80px;
+
+}
+.box{
+    background: linear-gradient(45deg, #005FAC, transparent), url(images/watch.png);
+    background-size: cover;
+    width:800px;
+   color: #fff;
+}
+.inner-box{
+    padding: 40px  40px;
+    
+}

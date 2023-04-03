@@ -3,7 +3,9 @@
     padding:0px;
     font-family: 'Open Sans', sans-serif;
 }
-
+P{
+    line-height:30px;
+}
 header{
     background-image: url("images/banner/banner3.png");
     background-position: left;
@@ -13,6 +15,7 @@ header{
     display: flex;
     justify-content: right;
     align-items: center;    
+    margin-bottom: 100px;
 }
 .heading-content{
     width: 650px;
@@ -35,4 +38,28 @@ header{
     border-radius: 5px;
     font-weight: bold;
     color:rgb(92, 92, 236);
+}
+
+.my-image img {
+
+    width: 400px;
+}
+.section-1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-plane{
+    width: 400px;
+    margin-left: 50px;
+}
+.my-plane h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.my-plane p i{
+    color:rgb(22,216,135);
+    font-size: 15px;
+    font-weight: bold;
 }

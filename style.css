@@ -5,6 +5,7 @@
 }
 P{
     line-height:30px;
+    color: gray;
 }
 header{
     background-image: url("images/banner/banner3.png");
@@ -49,10 +50,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 .my-plane{
     width: 400px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 .my-plane h1{
     font-size: 30px;
@@ -62,4 +64,27 @@ header{
     color:rgb(22,216,135);
     font-size: 15px;
     font-weight: bold;
+}
+/* section 2 My plane in this year */
+.section-2{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.goals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.goal{
+    text-align: center;
+    padding:50px;
+}
+.goal img{
+    margin-bottom: 15px;
 }

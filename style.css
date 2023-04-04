@@ -93,7 +93,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-   margin-top: 80px;
+   margin: 80px  0px;
 
 }
 .box{
@@ -104,5 +104,46 @@ header{
 }
 .inner-box{
     padding: 40px  40px;
+    width: 300px;
     
+}
+/* footer section Styling */
+footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+.footer-section{
+    color: #fff;
+ width: 800px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 100px 0px;
+ gap: 50px;
+
+}
+.contact img{
+    margin: 5px;
+    height:40px;
+}
+.subscribe input{
+    width: 250px;
+    height: 25px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.btn-box{
+    margin-top: 20px;
+    background-color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:rgb(92, 92, 236);
+    cursor: pointer;
 }

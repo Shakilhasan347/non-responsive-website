@@ -20,6 +20,8 @@ header{
 }
 .heading-content{
     width: 650px;
+    text-align: end;
+    margin-right: 80px;
 }
 .heading-content h1{
     font-size:65px;
@@ -39,6 +41,7 @@ header{
     border-radius: 5px;
     font-weight: bold;
     color:rgb(92, 92, 236);
+    cursor: pointer;
 }
 
 .my-image img {
@@ -107,6 +110,29 @@ header{
     width: 300px;
     
 }
+/* My section Start */
+.my-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+
+}
+.about-me{
+    
+    margin-left: 50px;
+    margin-top: 50px;
+
+
+}
+.about-me h1{
+    margin-bottom: 20px;
+}
 /* footer section Styling */
 footer{
     margin-top: 100px;
@@ -115,6 +141,7 @@ footer{
     align-items: center;
     background: black;
 }
+
 .footer-section{
     color: #fff;
  width: 800px;
